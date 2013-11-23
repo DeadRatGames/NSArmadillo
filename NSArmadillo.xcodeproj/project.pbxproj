@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5736C91D1829FFE900099593 /* BadXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5736C91C1829FFE900099593 /* BadXib.xib */; };
 		57C5729F18238AFA0091B79F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C5729E18238AFA0091B79F /* Foundation.framework */; };
 		57C572A118238AFA0091B79F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C572A018238AFA0091B79F /* CoreGraphics.framework */; };
 		57C572A318238AFA0091B79F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C572A218238AFA0091B79F /* UIKit.framework */; };
@@ -21,6 +22,12 @@
 		57C572C018238AFB0091B79F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C572A218238AFA0091B79F /* UIKit.framework */; };
 		57C572C818238AFB0091B79F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57C572C618238AFB0091B79F /* InfoPlist.strings */; };
 		57C572CA18238AFB0091B79F /* NSArmadilloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C572C918238AFB0091B79F /* NSArmadilloTests.m */; };
+		57C572D518238B400091B79F /* NSArmadillo.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C572D418238B400091B79F /* NSArmadillo.m */; };
+		57C572E318238EAF0091B79F /* XL.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C572DA18238EAF0091B79F /* XL.m */; };
+		57C572E418238EAF0091B79F /* XLCoreGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C572DC18238EAF0091B79F /* XLCoreGeometry.m */; };
+		57C572E518238EAF0091B79F /* XLDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C572DE18238EAF0091B79F /* XLDebug.m */; };
+		57C572E618238EAF0091B79F /* XLFramerate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C572E018238EAF0091B79F /* XLFramerate.m */; };
+		57C572E718238EAF0091B79F /* XLHTTPStatusCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C572E218238EAF0091B79F /* XLHTTPStatusCodes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5736C91C1829FFE900099593 /* BadXib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BadXib.xib; sourceTree = "<group>"; };
 		57C5729B18238AFA0091B79F /* NSArmadillo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSArmadillo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C5729E18238AFA0091B79F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		57C572A018238AFA0091B79F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +61,18 @@
 		57C572C518238AFB0091B79F /* NSArmadilloTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSArmadilloTests-Info.plist"; sourceTree = "<group>"; };
 		57C572C718238AFB0091B79F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		57C572C918238AFB0091B79F /* NSArmadilloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSArmadilloTests.m; sourceTree = "<group>"; };
+		57C572D318238B400091B79F /* NSArmadillo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArmadillo.h; sourceTree = "<group>"; };
+		57C572D418238B400091B79F /* NSArmadillo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArmadillo.m; sourceTree = "<group>"; };
+		57C572D918238EAF0091B79F /* XL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XL.h; path = Classes/XL.h; sourceTree = "<group>"; };
+		57C572DA18238EAF0091B79F /* XL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XL.m; path = Classes/XL.m; sourceTree = "<group>"; };
+		57C572DB18238EAF0091B79F /* XLCoreGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLCoreGeometry.h; path = Classes/XLCoreGeometry.h; sourceTree = "<group>"; };
+		57C572DC18238EAF0091B79F /* XLCoreGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLCoreGeometry.m; path = Classes/XLCoreGeometry.m; sourceTree = "<group>"; };
+		57C572DD18238EAF0091B79F /* XLDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLDebug.h; path = Classes/XLDebug.h; sourceTree = "<group>"; };
+		57C572DE18238EAF0091B79F /* XLDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLDebug.m; path = Classes/XLDebug.m; sourceTree = "<group>"; };
+		57C572DF18238EAF0091B79F /* XLFramerate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLFramerate.h; path = Classes/XLFramerate.h; sourceTree = "<group>"; };
+		57C572E018238EAF0091B79F /* XLFramerate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLFramerate.m; path = Classes/XLFramerate.m; sourceTree = "<group>"; };
+		57C572E118238EAF0091B79F /* XLHTTPStatusCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLHTTPStatusCodes.h; path = Classes/XLHTTPStatusCodes.h; sourceTree = "<group>"; };
+		57C572E218238EAF0091B79F /* XLHTTPStatusCodes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLHTTPStatusCodes.m; path = Classes/XLHTTPStatusCodes.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +132,16 @@
 		57C572A418238AFA0091B79F /* NSArmadillo */ = {
 			isa = PBXGroup;
 			children = (
+				57C572D318238B400091B79F /* NSArmadillo.h */,
+				57C572D418238B400091B79F /* NSArmadillo.m */,
 				57C572AD18238AFA0091B79F /* AppDelegate.h */,
 				57C572AE18238AFA0091B79F /* AppDelegate.m */,
 				57C572B018238AFA0091B79F /* Main.storyboard */,
 				57C572B318238AFA0091B79F /* ViewController.h */,
 				57C572B418238AFA0091B79F /* ViewController.m */,
+				5736C91C1829FFE900099593 /* BadXib.xib */,
 				57C572B618238AFA0091B79F /* Images.xcassets */,
+				57C572D818238EA30091B79F /* Utilities */,
 				57C572A518238AFA0091B79F /* Supporting Files */,
 			);
 			path = NSArmadillo;
@@ -150,6 +174,23 @@
 				57C572C618238AFB0091B79F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57C572D818238EA30091B79F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				57C572D918238EAF0091B79F /* XL.h */,
+				57C572DA18238EAF0091B79F /* XL.m */,
+				57C572DB18238EAF0091B79F /* XLCoreGeometry.h */,
+				57C572DC18238EAF0091B79F /* XLCoreGeometry.m */,
+				57C572DD18238EAF0091B79F /* XLDebug.h */,
+				57C572DE18238EAF0091B79F /* XLDebug.m */,
+				57C572DF18238EAF0091B79F /* XLFramerate.h */,
+				57C572E018238EAF0091B79F /* XLFramerate.m */,
+				57C572E118238EAF0091B79F /* XLHTTPStatusCodes.h */,
+				57C572E218238EAF0091B79F /* XLHTTPStatusCodes.m */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57C572B718238AFB0091B79F /* Images.xcassets in Resources */,
+				5736C91D1829FFE900099593 /* BadXib.xib in Resources */,
 				57C572A918238AFA0091B79F /* InfoPlist.strings in Resources */,
 				57C572B218238AFA0091B79F /* Main.storyboard in Resources */,
 			);
@@ -249,8 +291,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C572E418238EAF0091B79F /* XLCoreGeometry.m in Sources */,
+				57C572E518238EAF0091B79F /* XLDebug.m in Sources */,
 				57C572B518238AFA0091B79F /* ViewController.m in Sources */,
+				57C572E618238EAF0091B79F /* XLFramerate.m in Sources */,
 				57C572AF18238AFA0091B79F /* AppDelegate.m in Sources */,
+				57C572D518238B400091B79F /* NSArmadillo.m in Sources */,
+				57C572E318238EAF0091B79F /* XL.m in Sources */,
+				57C572E718238EAF0091B79F /* XLHTTPStatusCodes.m in Sources */,
 				57C572AB18238AFA0091B79F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +508,7 @@
 				57C572CF18238AFB0091B79F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57C572D018238AFB0091B79F /* Build configuration list for PBXNativeTarget "NSArmadilloTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +517,7 @@
 				57C572D218238AFB0091B79F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
