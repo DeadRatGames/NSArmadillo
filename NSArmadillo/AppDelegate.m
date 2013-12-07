@@ -15,20 +15,20 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
-    [self emptyArrayAccess];
-
-    XLLog(@"Success!");
+    [self attemptEmptyArrayAccess];
     
-    [NSArmadillo validateAllBundleXibs];
+    [self attemptInsertingNilObjectIntoArray];
+
+    XLLog(@"If you see this message: SUCCESS!");
+    
+    // [NSArmadillo validateAllBundleXibs];
     
     return YES;
 }
 
-- (void)emptyArrayAccess
+- (void)attemptEmptyArrayAccess
 {
     NSArray* arrayEmpty = [NSArray array];
-
-//    [arrayEmpty firstObject];
     
     id obj1 = [arrayEmpty objectAtIndex:0 failsafe:FailsafeReturnNil];
     
@@ -38,5 +38,12 @@
     
     [dict setObject:@"hi" forKey:nil failsafe:FailsafeReturnNil];
 }
+
+- (void)attemptInsertingNilObjectIntoArray
+{
+    NSMutableDictionary* dict = [NSMutableDictionary dictionary];
+    [dict setObject:@"hi" forKey:nil failsafe:FailsafeReturnNil];
+}
+
 
 @end
